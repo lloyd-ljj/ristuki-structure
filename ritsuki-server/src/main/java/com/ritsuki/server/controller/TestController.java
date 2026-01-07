@@ -21,7 +21,7 @@ public class TestController {
      */
     @GetMapping("/hello")
     public CommonResult<String> hello() {
-        return CommonResult.success("Hello, Ritsuki!");
+        return CommonResult.success("Hello, Ritsuki !");
     }
 
 }
